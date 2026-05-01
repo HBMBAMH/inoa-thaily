@@ -1,4 +1,3 @@
-import bgGif from "../assets/bg.gif"
 import balloons from "../assets/balloons.png"
 import babyPan from "../assets/baby-pan.png"
 import { Button } from "./ui/button"
@@ -20,7 +19,7 @@ export default function Home() {
   return (
     <div
       className="relative min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgGif})` }}
+      style={{ backgroundImage: "url('/inoa-thaily/bg.gif')" }}
     >
       <div className="absolute inset-0 bg-violet-200/50"></div>
 
